@@ -5,7 +5,7 @@ import (
 	"html"
 	"regexp"
 
-	"github.com/stjohnjohnson/reddit-watcher/internal/matcher"
+	"github.com/sotsugov/reddit-watcher/internal/matcher"
 	"github.com/turnage/graw/reddit"
 )
 

@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/stjohnjohnson/reddit-watcher/internal/matcher"
+	"github.com/sotsugov/reddit-watcher/internal/matcher"
 )
 
 var helpText = `
@@ -130,11 +130,11 @@ func (b *Handler) handleWatchlist(userID int64) string {
 }
 
 func (b *Handler) handleHelp() string {
-	return fmt.Sprintf(`Hi, I'm <a href="https://github.com/stjohnjohnson/reddit-watcher">reddit-watcher@%v</a>. I watch /r/mechmarket for specific keywords%s`, b.version, html.EscapeString(helpText))
+	return fmt.Sprintf(`Hi, I'm <a href="https://github.com/sotsugov/reddit-watcher">reddit-watcher@%v</a>. I watch /r/mechmarket for specific keywords%s`, b.version, html.EscapeString(helpText))
 }
 
 func (b *Handler) handleStart() string {
-	return fmt.Sprintf(`Hi, I'm <a href="https://github.com/stjohnjohnson/reddit-watcher">reddit-watcher@%v</a>. I watch /r/mechmarket for specific keywords%s`, b.version, html.EscapeString(startText))
+	return fmt.Sprintf(`Hi, I'm <a href="https://github.com/sotsugov/reddit-watcher">reddit-watcher@%v</a>. I watch /r/mechmarket for specific keywords%s`, b.version, html.EscapeString(startText))
 }
 
 func (b *Handler) handleStats() string {

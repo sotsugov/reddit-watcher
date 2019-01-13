@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stjohnjohnson/reddit-watcher/internal/data"
-	"github.com/stjohnjohnson/reddit-watcher/internal/matcher"
-	"github.com/stjohnjohnson/reddit-watcher/mocks"
+	"github.com/sotsugov/reddit-watcher/internal/data"
+	"github.com/sotsugov/reddit-watcher/internal/matcher"
+	"github.com/sotsugov/reddit-watcher/mocks"
 )
 
 func TestMessageBad(t *testing.T) {

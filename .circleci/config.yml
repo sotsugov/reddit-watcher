@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.10
-    working_directory: /go/src/github.com/stjohnjohnson/reddit-watcher
+    working_directory: /go/src/github.com/sotsugov/reddit-watcher
     steps:
       - checkout
       - run: make install
@@ -15,7 +15,7 @@ jobs:
   publish:
     docker:
       - image: circleci/golang:1.10
-    working_directory: /go/src/github.com/stjohnjohnson/reddit-watcher
+    working_directory: /go/src/github.com/sotsugov/reddit-watcher
     steps:
       - checkout
       - add_ssh_keys:

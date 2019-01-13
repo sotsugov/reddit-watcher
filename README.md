@@ -1,6 +1,6 @@
 # Reddit Watcher
 
-[![Current Release](https://img.shields.io/github/tag/stjohnjohnson/reddit-watcher.svg)](https://img.shields.io/github/tag/stjohnjohnson/reddit-watcher.svg)  [![CircleCI](https://circleci.com/gh/stjohnjohnson/reddit-watcher/tree/master.svg?style=shield)](https://circleci.com/gh/stjohnjohnson/reddit-watcher/tree/master) [![Coverage Status](https://coveralls.io/repos/github/stjohnjohnson/reddit-watcher/badge.svg?branch=master)](https://coveralls.io/github/stjohnjohnson/reddit-watcher?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/stjohnjohnson/reddit-watcher)](https://goreportcard.com/report/github.com/stjohnjohnson/reddit-watcher) [![Docker Pulls](https://img.shields.io/docker/pulls/stjohnjohnson/reddit-watcher.svg)](https://hub.docker.com/r/stjohnjohnson/reddit-watcher/) [![Chat Now](https://img.shields.io/badge/telegram-MechKeyBot-blue.svg?style=social)](https://telegram.me/MechKeyBot)
+[![Current Release](https://img.shields.io/github/tag/sotsugov/reddit-watcher.svg)](https://img.shields.io/github/tag/sotsugov/reddit-watcher.svg)  [![CircleCI](https://circleci.com/gh/sotsugov/reddit-watcher/tree/master.svg?style=shield)](https://circleci.com/gh/sotsugov/reddit-watcher/tree/master) [![Coverage Status](https://coveralls.io/repos/github/sotsugov/reddit-watcher/badge.svg?branch=master)](https://coveralls.io/github/sotsugov/reddit-watcher?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/sotsugov/reddit-watcher)](https://goreportcard.com/report/github.com/sotsugov/reddit-watcher) [![Docker Pulls](https://img.shields.io/docker/pulls/sotsugov/reddit-watcher.svg)](https://hub.docker.com/r/sotsugov/reddit-watcher/) [![Chat Now](https://img.shields.io/badge/telegram-MechKeyBot-blue.svg?style=social)](https://telegram.me/MechKeyBot)
 
 Watches specific subreddits (`/r/mechmarket`) for items matching a specific pattern.
 
@@ -11,7 +11,7 @@ Running the bot is easy!  You just need a Telegram token that you can get from t
 Once you have that, start up your server with the following command:
 
 ```bash
-docker run -v `pwd`/config:/config stjohnjohnson/reddit-watcher:latest --token ${TELEGRAM_TOKEN}
+docker run -v `pwd`/config:/config sotsugov/reddit-watcher:latest --token ${TELEGRAM_TOKEN}
 ```
 
 In this example, I'm running the container with settings being saved to a local directory.

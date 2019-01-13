@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/stjohnjohnson/reddit-watcher/internal/data"
-	"github.com/stjohnjohnson/reddit-watcher/internal/matcher"
-	"github.com/stjohnjohnson/reddit-watcher/mocks"
+	"github.com/sotsugov/reddit-watcher/internal/data"
+	"github.com/sotsugov/reddit-watcher/internal/matcher"
+	"github.com/sotsugov/reddit-watcher/mocks"
 	"github.com/turnage/graw/reddit"
 )
 
