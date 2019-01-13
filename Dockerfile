@@ -2,7 +2,7 @@
 FROM golang:1.10 AS build
 
 # Prerequisites
-WORKDIR /go/src/github.com/stjohnjohnson/reddit-watcher
+WORKDIR /go/src/github.com/sotsugov/reddit-watcher
 RUN go get -u github.com/golang/dep/cmd/dep
 RUN go get -u github.com/screwdriver-cd/gitversion
 
@@ -12,7 +12,7 @@ ENV GOARCH=amd64
 ENV CGO_ENABLED=0
 
 # Add code and install deps
-COPY . /go/src/github.com/stjohnjohnson/reddit-watcher
+COPY . /go/src/github.com/sotsugov/reddit-watcher
 RUN dep ensure -vendor-only
 
 # Build the app
