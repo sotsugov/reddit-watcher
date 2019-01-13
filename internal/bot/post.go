@@ -9,7 +9,7 @@ import (
 	"github.com/turnage/graw/reddit"
 )
 
-var messageTemplate = `%s [<a href="%s">web</a>] [<a href="https://git.io/vhZZN#%s">app</a>] <i>(matched %s %s)</i>`
+var messageTemplate = `%s [<a href="%s">web</a>] [<a href="https://git.io/fhn9R#%s">app</a>] <i>(matched %s %s)</i>`
 
 func (b *Handler) incomingPost(post *reddit.Post) error {
 	item, err := matcher.ParseTitle(post.Title)
